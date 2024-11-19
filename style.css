@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+  font-style: bold;
+}
+#channel-cover{
+    border: 5px solid #6D2932;
+    width: 100%;
+}
+body {
+    background-color:#E8D8C4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-siye: 20px;
+    padding: 50px;
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+    #cover-legend{
+        text-align: center;
+        margin-top: 0%;
+        font-family: "Libre Baskerville", serif;
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        margin-bottom: 20px;
+        text-align: left;
+        }
+   
+    p{
+        margin-bottom: 20px;
+    }
+    .first {
+        color:black;
+        text-align: justify;
+    }
+a{
+    color: #6D2932;
+    background-color: #C7B7A3;
+}
+    #channel-dp{
+      height: 200px;
+      border-radius: 50%;
+      float: right;
+    }
+    
+    /*to change the properties or display settings of the calsse we use ".", "name of the class" , { and propertz suppose font-color: green etc than }
+    # is use for making id*/    
+    #search-playlist {
+        background-color:#C7B7A3;
+        border: 5px solid #444;
+        width: 400px;
+        padding: 25px;
+        margin-top: 50px;
+    }
+    
+    input, button {
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    
+#channel-dp {
+    width:300px;
+    height: 300px;
+}
+
+#search-shorts h3 {
+   color: #561C24;
+}
+    
+
+
+.box-main {
+    border: 5px solid #561C24;
+    width: 100px;
+    background-color: #561C24;
+    color: #C7B7A3;
+    padding: 2px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.box-sub {
+    border: 5px solid #561C24;
+    width: 100px;
+    background-color: #C7B7A3;
+    color: #561C24;
+    padding: 2px;
+    margin-left: 120px;
+}
